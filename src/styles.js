@@ -20,7 +20,7 @@ export const Image = styled.div`
 
     img{
         width: 100%;
-        heigth: 70vh;
+        height: 70vh;
         object-fit: cover;
     }
 `;

@@ -56,13 +56,18 @@ const Services = styled(About)`
         padding:2rem 0rem 4rem 0rem;
     }
 `;
+
 const Cards = styled.div`
     display:flex;
-    flex-warp:warp;
+    flex-wrap:wrap;
 `;
 const Card = styled.div`
     flex-basis:20rem;
     .icon{
+        svg{
+            width:4em;
+            height:4em;
+        }
         display:flex;
         align-items:center;
         h3{
